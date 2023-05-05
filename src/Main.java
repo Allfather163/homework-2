@@ -59,8 +59,17 @@ var cat = 3.6 ;
         System.out.println("Общий Вес боксеров " + totalWeight + " килограмм ");
         var differenceWeight = secondBoxing % firstBoxing;
         System.out.println("разница между весами бойцов " + differenceWeight + " килограмм ");
+        var differenceWeight2 = secondBoxing - firstBoxing;
+        System.out.println("разница между весами бойцов " + differenceWeight2 + " килограмм ");
 
+        var totalWork = 640;
+        var time = 8;
+        var work = totalWork / time ;
+        System.out.println( "Всего работников в компании - " + work + " человек ");
 
+        var work2 = work + 94;
+        var moreWork = totalWork / work2;
+        System.out.println( "Если в компании работает " + work2 + " человек , то всего " + moreWork + " часа работы может быть поделено между сотрудниками");
 
 
 
